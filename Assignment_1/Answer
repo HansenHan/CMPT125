@@ -1,0 +1,13 @@
+Question 1:
+a)
+(1) The algorithm time is O(n). In the function, it has an initial value "n" and give a value "tmp" which is n+1. After that, in the for loop, it makes the s equals to tmp+i which i's initial value is 1 and it is bigger 1 every the loop until i=n. So, the s=n+1+(sum(1+...+n)) and there are n+1 times additive operation. Therefore, the O-natation is O(n).
+(2) This function is to calculate n+1 plus a series of number which from 1 to n. It can be improved and the improved algorithm is:
+int func(int n)
+{
+  int s = 0;
+  s = (n+1)^2/2
+  return s;
+}
+
+b)
+
